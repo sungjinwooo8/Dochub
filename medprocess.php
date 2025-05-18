@@ -1,6 +1,6 @@
 <?php
 if ($_FILES['image']['error'] == UPLOAD_ERR_OK) {
-    $apiKey = "AIzaSyCDV-ArqY9VBfR9jOncK_a0vWZupMsSLqQ";
+    $apiKey = "paste your gemini api key here";
     $imagePath = $_FILES['image']['tmp_name'];
     $imageData = base64_encode(file_get_contents($imagePath));
 
